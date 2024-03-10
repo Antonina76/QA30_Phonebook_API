@@ -11,7 +11,7 @@ public class AddContactTests extends TestBase {
     @Test
     public void addContactSuccessTest() {
         ContactDto contactDto = ContactDto.builder()
-                .name("Oliver")
+                .name("Fred")
                 .lastName("Kan")
                 .phone("1234567890")
                 .email("kan@gm.com")
